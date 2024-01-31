@@ -1,0 +1,17 @@
+﻿@model Note
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h1>@Model.Title</h1>
+<div>
+    @{
+        var lines = @Model.Content.Split("\n");
+        foreach (var line in lines)
+        {
+            <p>@line</p>
+        }
+    }
+</div>

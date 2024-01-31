@@ -1,11 +1,18 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=52458617_002Dafd4_002D48a5_002D8f12_002D1323c163139e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetShouldReturnTwoQuizzes" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.GetShouldReturnTwoQuizzes&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=608b0f53_002D4a8b_002D41a2_002Dae1c_002D53c9be753cfd/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetShouldReturnTwoQuizzes #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=2b6e4541_002D728c_002D4680_002D9220_002D097b09fc3b13/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Test01" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test01&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test02&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test02B&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test02A&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test03&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test04&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test05&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test05B&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=40a53457_002Dc834_002D446d_002D9269_002D66b231389f97/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Test03" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::62498F57-862A-4F37-A263-03B17F313CE4::net7.0::Ezgamin2023Test.Egzamin2023Test.Test03&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egzamin2023", "Egzamin2023\Egzamin2023.csproj", "{946C710C-B9D0-4F00-BA58-7AD0E10D9967}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ezgamin2023Test", "Ezgamin2023Test\Ezgamin2023Test.csproj", "{62498F57-862A-4F37-A263-03B17F313CE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Egzamin2023Test", "Egzamin2023Test\Egzamin2023Test.csproj", "{62498F57-862A-4F37-A263-03B17F313CE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

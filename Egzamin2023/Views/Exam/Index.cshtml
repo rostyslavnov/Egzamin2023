@@ -1,6 +1,14 @@
-﻿@{
+﻿@model IEnumerable<Note>
+
+@{
     ViewBag.Title = "title";
     Layout = "_Layout";
 }
 
-<h2>Exam Index</h2>
+<h1>Lista notatek</h1>
+<ul>
+@foreach (var note in @Model)
+{
+    <li><a asp-action="Details" asp-controller="Exam" asp-route-id="@note.Title">@note.Title</a></li>
+}
+</ul>
