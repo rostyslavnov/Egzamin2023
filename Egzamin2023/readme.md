@@ -1,6 +1,6 @@
-﻿# Prygotowanie projektu egzaminacyjnego
-Utwórz projekt typu ASP.NET MVC o nazwie `Egzamin2023` (w rozwiązaniu o tej samej nazwie). W trakcie wykonywania zadań
-w klasie tworzonego kontrolera, serwisu i modelu umieść na początku pliku w komentarzu swoje dane:
+﻿# Przygotowanie projektu egzaminacyjnego
+Sklonuj projekt z repozytorium https://github.com/siwoncezary/EgzaminyASP.NET.git i uzupełnij go wykonująć kolejne zadania.
+W trakcie wykonywania zadań w klasie tworzonego kontrolera, serwisu i modelu umieść na początku pliku w komentarzu swoje dane:
 `
 // <Imię> <Nazwisko> <nrAlbumu>
 `
