@@ -1,0 +1,25 @@
+﻿@model Note
+
+@{
+    ViewBag.Title = "title";
+    Layout = "_Layout";
+}
+
+<h2>Dodaj notatkę</h2>
+<div>
+    <form method="post">
+        <label asp-for="Title"></label>
+        <input asp-for="Title"/>
+        <span asp-validation-for="Content"></span>
+        
+        <label asp-for="Content"></label>
+        <textarea asp-for="Content"></textarea>
+        <span asp-validation-for="Content"></span>
+        
+        <label asp-for="Deadline"></label>
+        <input asp-for="Deadline"/>
+        <span asp-validation-for="Deadline"></span>
+        
+        <button type="submit">Zapisz</button>
+    </form>
+</div>
