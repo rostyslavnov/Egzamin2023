@@ -1,10 +1,13 @@
 ﻿# Przygotowanie projektu egzaminacyjnego
-Sklonuj projekt z repozytorium https://github.com/siwoncezary/EgzaminyASP.NET.git i uzupełnij go wykonująć kolejne zadania.
+Sklonuj projekt z repozytorium https://github.com/siwoncezary/EgzaminyASP.NET.git i uzupełnij go wykonując kolejne zadania.
 W trakcie wykonywania zadań w klasie tworzonego kontrolera, serwisu i modelu umieść na początku pliku w komentarzu swoje dane:
+
 `
 // <Imię> <Nazwisko> <nrAlbumu>
 `
+
 np.
+
 `
 // Jan Abecki 2334
 `
@@ -18,17 +21,21 @@ Utwórz widok formularza dla tego modelu z uwzględnieniem komunikatów błędó
 - `Tytuł`
 - `Treść`
 - `Data ważności`
-Zdefiniuj w klasę kontrolera o odpowiedniej nazwie, a w nim metodę akcji, która zwraca utworzony widok formularza po wysłaniu 
-żądania do ścieżki `/Exam/Create` na serwerze applikacji.
+
+Utwórz klasę kontrolera o odpowiedniej nazwie, a w nim metodę akcji, która zwraca utworzony widok formularza po wysłaniu 
+żądania do ścieżki `/Exam/Create`.
 
 # Zadanie 2 (2 pkt)
 Utwórz metodę akcji, która zwraca widok z listą notatek po wysłaniu żądania do ścieżki `Exam/Index` . Na razie umieść w widoku tylko tytuł w znaczniku H1: 
 "Lista notatek". 
+
 Zdefiniuj drugą metodę w kontrolerze, która odbiera dane z formularza notatki wysłane metodą `post` do ściezki `/Exam/create`.
 Dane notatki są poprawne, jeśli pola spełniają podane warunki w zadaniu 1 oraz data ważności jest późniejsza
 o co najmniej jedną godzinę od bieżącej daty.
+
 Jeśli data ważności jest niepoprawna to zgłoś błąd daty ważności poniższą metodą:
 `ModelState.AddModelError(<nazwa-pola-daty-ważnosci>, "Czas ważności musi być o godzinę późniejszy od bieżącego czasu!");`
+
 W miejscu <nazwa-pola-daty-ważnosci> wpisz nazwę właściwości modelu.
 Datę bieżącą pobierz z serwisu `DefaultDateProvider`, której kod znajduje się poniżej.
 ```
@@ -38,15 +45,16 @@ public class DefaultDateProvider: IDateProvider
 }
 ```
 Samodzielnie zdefiniuj interfejs `IDateProvider` z metodą, którą implementuje powyższa klasa. 
-Aby z niego skorzystać dodaj odpowiedni wiersz rejestrujący klasę `DefaultDateProvider` jako implementację interfejsu 
+Dodaj odpowiedni wiersz rejestrujący klasę `DefaultDateProvider` jako implementację interfejsu 
 `IDateProvider`.
-Jeśli notatka jest poprawna to przejdź do widoku pod ścieżką `/Exam/Index`. 
+Jeśli notatka jest poprawna to zatwierdzenie formularza przekierowuje do ścieżki `/Exam/Index`. 
 
 # Zadanie  3 (2 pkt)
 Zdefiniuj klasę serwisu o nazwie `NoteService` z trzema metodami:
 - `Add()`: dodanie notatki, która zapisuje notatkę w pamięci np. dodaje do listy, słownika
 - `GelAll()`: pobranie listy ważnych notatek, która zwraca tylko te notatki, których data ważności jest mniejsza od bieżącej daty
-- `GetById()`: zwrócenie jednej, ważnej notatki na podstawie jego tytułu 
+- `GetById()`: zwrócenie jednej, ważnej notatki na podstawie jego tytułu.
+
 Serwis powinien mieć zależność do serwisu  `IDateProvider` i z tego serwisu pobierać czas bieżący. 
 Zarejestruj serwis w kontenerze IOC dobierając odpowiedni zasięg. 
 Uzupełnij kontroler o zapisywanie poprawnej notatki do utworzonego serwisu.
@@ -59,12 +67,12 @@ Przykład linku kierującego do treści notatki o tytule "Sprawdzian"
 `/Exam/Details/Sprawdzian`.
 
 # Zadanie 5 (1 pkt)
-Zdefiniuj metodę `Details`, aby zwracała widok z tytułem notatki w elemencie `<h1>`, pod tytułem nalezy umieścić treść notatki
+Zdefiniuj metodę `Details`, aby zwracała widok z tytułem notatki w elemencie `<h1>`, pod tytułem należy umieścić treść notatki
 w elemencie `<div>`, który zawiera paragrafy (w elemencie `<p>`). Każdy paragraf zawiera jeden wiersz tekstu treści notatki.
 Na dole umieść link powrotu do listy notatek.
 
 # Przesłanie na serwer
-Wykonaj archowum projektu zawierające tylko pliku źródłowe (oprócz katalogów `bin` i `obj`) i prześlij jako plik zadania egzaminacyjnego. 
+Wykonaj archiwum projektu zawierające tylko pliki źródłowe (oprócz katalogów `bin` i `obj`) i prześlij jako plik potwierdzający wykonanie zadania egzaminacyjnego. 
 
 
 
