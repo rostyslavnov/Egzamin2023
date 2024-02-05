@@ -15,10 +15,9 @@ public class Egzamin2023TestFactory<TProgram> : WebApplicationFactory<TProgram> 
         {
             var defaultTimeProvider = services.SingleOrDefault(
                 d => d.ServiceType ==
-                     typeof(DefaultDateProvider)
+                     typeof(IDateProvider)
             );
             services.Remove(defaultTimeProvider);
-
             services
                 .AddSingleton<IDateProvider>(new TestDateProvider(new DateTime(2024,1, 1)));
         });

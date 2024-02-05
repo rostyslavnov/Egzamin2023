@@ -6,4 +6,10 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="Views\Exam\Create.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Exam\Details.cshtml" />
+      <_ContentIncludedByDefault Remove="Views\Exam\Index.cshtml" />
+    </ItemGroup>
+
 </Project>
