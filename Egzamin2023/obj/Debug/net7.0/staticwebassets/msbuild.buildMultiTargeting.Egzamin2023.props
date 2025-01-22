@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Egzamin2023.props" />
+</Project>

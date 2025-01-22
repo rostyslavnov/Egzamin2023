@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\hinat\RiderProjects\ProjektZajencia\EgzaminyASP.NET\Egzamin2023
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/hinat/RiderProjects/ProjektZajencia/EgzaminyASP.NET/Egzamin2023/Views/Exam/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hinat/RiderProjects/ProjektZajencia/EgzaminyASP.NET/Egzamin2023/Views/Exam/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hinat/RiderProjects/ProjektZajencia/EgzaminyASP.NET/Egzamin2023/Views/Exam/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhhbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/hinat/RiderProjects/ProjektZajencia/EgzaminyASP.NET/Egzamin2023/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,17 @@
+﻿// Novytskyi Rostyslav 15204
+@model Egzamin2023.Models.Note
+
+@{
+    ViewData["Title"] = Model.Title;
+}
+
+<h1>@Model.Title</h1>
+
+<div>
+    @foreach (var line in Model.Content.Split('\n'))
+    {
+        <p>@line</p>
+    }
+</div>
+
+<a asp-controller="Exam" asp-action="Index" class="btn btn-primary">Back to List</a>

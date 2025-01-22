@@ -1,0 +1,25 @@
+﻿// Novytskyi Rostyslav 15204
+@model IEnumerable<Egzamin2023.Models.Note>
+
+@{
+    ViewData["Title"] = "List of Notes";
+}
+
+<h1>List of Notes</h1>
+
+@if (Model != null && Model.Any())
+{
+    <ul>
+        @foreach (var note in Model)
+        {
+            <li>
+                <a asp-controller="Exam" asp-action="Details" asp-route-title="@note.Title">@note.Title</a>
+                - Deadline: @note.Deadline.ToString("yyyy-MM-dd HH:mm")
+            </li>
+        }
+    </ul>
+}
+else
+{
+    <p>No notes available.</p>
+}
